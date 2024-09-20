@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;  
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -13,8 +14,10 @@ body {
     background: #1C1F2D;
     background-size: cover;
     background-position: center;
+  background-image: url(./Imgs/akdj.png);
     
 }
+
 
 .container {
     width: 700px;
@@ -165,5 +168,3 @@ a {
       margin-top: -2000%;
 
     }
-
-    
