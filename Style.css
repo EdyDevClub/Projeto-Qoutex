@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 body {
@@ -55,20 +55,33 @@ a {
   .input-box input {
     width: 80%;
     height: 100%;
-    margin-left: 50px;
+    margin-left: 65px;
     font-weight: 700px;
     font-size: 20px;
     line-height: 25px;
+    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+    margin-top: 15%;
   }
 
   .input-senha input {
     width: 80%;
     height: 50px;
-    margin-left: 50px;
+    margin-left: 65px;
     margin-top: 50px;
     font-weight: 700px;
     font-size: 20px;
     line-height: 25px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+    margin-top: 15%;
   }
 
    .input-check {
@@ -80,7 +93,7 @@ a {
     width: 80px;
     height: 20px;
     accent-color: #fff;
-    margin-left: 25px;
+    margin-left: 45px;
     margin-top: 25px;
     font-weight: 900px;
     font-size: 18px;
@@ -126,5 +139,31 @@ a {
     color: #fff;
     align-items: center;
     accent-color: #3397f5;
-    cursor: pointer;    
+    cursor: pointer;
     }
+
+    .logos {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+         
+    }
+
+    .logo-facebokk {
+      width: 70px;
+      margin-left: 35%;
+      margin-top: 30px;
+      border-radius: 20px;
+
+    
+    }
+    
+    .logo-google {
+      display: inline-block;
+      width: 70px;
+      margin-left: 50%;
+      margin-top: -2000%;
+
+    }
+
+    
